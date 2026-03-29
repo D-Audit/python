@@ -19,4 +19,5 @@ for i in range(1,4):
 new_student = input("Enter a new student: ")
 append_student(new_student) 
 
+
 read_students()                     
