@@ -21,6 +21,7 @@ class Student:
         print(f"{self.name} 's grade updated to  {new_grade}")
 
 class Teacher(Student):
+  
 
   def __init__(self, name, age, grade):
       super().__init__(name, age, grade ="N/A")
