@@ -23,6 +23,7 @@ class BankAccount:
 account = BankAccount("KAYIRANGA", 500000)
 account.deposit(1000000)
 account.withdraw(500000)
+
 print(f"your new balance: {account.get_balance()}")
 print(account.__balance) #error can't get private data directly
 
