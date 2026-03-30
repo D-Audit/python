@@ -9,6 +9,7 @@ paths = [
     b"../../../flag.txt\n",
     b"../../../flag\n"
 ]
+
 while True:
     try:
         print("[+] Connecting to printer service...")
