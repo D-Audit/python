@@ -1,6 +1,7 @@
 import random
 
 def guessing_game():
+    
     secret = random.randint(1, 100)
     attempts = 0
     while True:
