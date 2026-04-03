@@ -8,6 +8,7 @@ def modinv(a, m):
             return i
     return None
 
+
 def decrypt_affine(ciphertext, a, b):
     m = 26
     a_inv = modinv(a, m)
